@@ -1,0 +1,9 @@
+{
+  "data/letter-baseline-plan-v1.json": "6a4610b88a4ba2f31cef05af69ff1e0d90282c05db8c80e1fa67832cd1fab3f6",
+  "scripts/letter_choice.py": "a508146737fd372586e0dba08d5688a09071f99ac307d3d54f2c3879563a2a15",
+  "scripts/run_letter_baseline.py": "66781e21548b66418945fea34f78aa9778b1e035246df2f5b38fa7a77e32c1d8",
+  "scripts/baseline_common.py": "886a6a58473f4e618cbb0c1999aea7dd4d50174e3f91b8739592b506015dad26",
+  "scripts/verify_local_model.py": "41dd39f17bff3fb06cc1f7bfa97409e4b1f16dd9b5362890639067c61da4eda8",
+  "data/model-manifest.json": "549c2e6fa6cc93466e1efb632dd2bde5f19b6cf00dcebcd03f9682c6d55ae5d3",
+  "requirements-model.lock": "95a776a6a619ac07038025bafcb0328b0d087c13d113e237f58fea8a71100cfb"
+}

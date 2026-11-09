@@ -1,0 +1,23 @@
+{
+  "publisher": "NOAA National Centers for Environmental Information / National Weather Service",
+  "dataset": "Storm Events Database, event details, 2024",
+  "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2024_c20260728.csv.gz",
+  "format_documentation": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/Storm-Data-Bulk-csv-Format.pdf",
+  "metadata_and_use_constraints": "https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00510/html",
+  "original_retrieved_at_utc": "2026-10-30T04:34:14.724970+00:00",
+  "copied_to_this_project_on": "2026-11-06",
+  "local_file": "data/raw/stormevents-2024.csv.gz",
+  "sha256": "2070b83eccab041b36360ab73645b9a249c3eefc5b92b5b3fc0cbba4d9fcc09c",
+  "snapshot_policy": "Retain this specific source revision and hash. Do not silently replace it with a newer NOAA file.",
+  "reference_label": "EVENT_TYPE",
+  "classifier_input": "EVENT_NARRATIVE",
+  "initial_classes": ["Flash Flood", "Tornado", "Thunderstorm Wind", "Hail", "Winter Storm", "Wildfire"],
+  "attribution": "Source: NOAA National Centers for Environmental Information, Storm Events Database, 2024 details snapshot, originally accessed October 30, 2026.",
+  "use_notes": [
+    "Cite NOAA and retain source identifiers, dates and credited sources.",
+    "NOAA notes that some information may be externally sourced or unverified. Public access is not a blanket rights clearance for outside news, photographs or added datasets.",
+    "This project uses historical data, not a live warning feed.",
+    "Missing damage values are unknown, not zero. Do not sum episode and event narratives as independent incidents.",
+    "Raw source data is excluded from Git; reproduction should verify this hash."
+  ]
+}

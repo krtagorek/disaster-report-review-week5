@@ -1,0 +1,45 @@
+{
+  "artifact": "attached adapter raw",
+  "split": "development",
+  "selection": "Six errors with lowest SHA256(event_id), inspected after development predictions; qualitative diagnosis only",
+  "labels_changed": false,
+  "training_changes": false,
+  "examples": [
+    {
+      "event_id": "1211898",
+      "reference_label": "Thunderstorm Wind",
+      "prediction": "Tornado",
+      "review_note": "Narrative describes a landspout while the source reference is Thunderstorm Wind; label/text alignment may be ambiguous. Do not automatically treat the source as semantic certainty."
+    },
+    {
+      "event_id": "1177502",
+      "reference_label": "Tornado",
+      "prediction": "Thunderstorm Wind",
+      "review_note": "Narrative contains EF-0 and rotating mesocyclone evidence; adapter missed the Tornado reference despite this evidence."
+    },
+    {
+      "event_id": "1179282",
+      "reference_label": "Tornado",
+      "prediction": "Thunderstorm Wind",
+      "review_note": "Damage-only description lacks explicit hazard identity in the event narrative; context limitations remain."
+    },
+    {
+      "event_id": "1181787",
+      "reference_label": "Tornado",
+      "prediction": "Thunderstorm Wind",
+      "review_note": "Opposite-direction damage is described without explicitly naming the hazard; this is difficult text-only evidence."
+    },
+    {
+      "event_id": "1160639",
+      "reference_label": "Winter Storm",
+      "prediction": "Thunderstorm Wind",
+      "review_note": "Snow-squall and whiteout conditions coexist with strong wind measurements; multi-hazard ambiguity."
+    },
+    {
+      "event_id": "1193853",
+      "reference_label": "Thunderstorm Wind",
+      "prediction": "Hail",
+      "review_note": "Both wind and hail are described and another hail entry is referenced; single-label assignment does not capture every mentioned hazard."
+    }
+  ]
+}

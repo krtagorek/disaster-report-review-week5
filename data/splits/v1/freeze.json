@@ -1,0 +1,93 @@
+{
+  "artifact_sha256": {
+    "development.jsonl": "6709956ef46c976a50b83e90d44bb1995b83d4e104dc8af17c8ea2e7c64f8760",
+    "final.jsonl": "df978d99467de3ae51761a731245c0c987fc0066403ff5a5b8002bf0548edd45",
+    "near-duplicate-edges.jsonl": "ef24533833c8baa3d3ab60ed56fc75519f76dbf775cd9ca4c2551d521f390907",
+    "train.jsonl": "85e28085397db3b09cbd9df27913097d7f0bf36805f6755d494a4b2d072a4e0c"
+  },
+  "builder_sha256": "2a5bb73a3f8e7734697a70b144b54eaa1556258adcf92413c1012c1d8863aa10",
+  "class_group_counts": {
+    "development": {
+      "Flash Flood": 145,
+      "Hail": 111,
+      "Thunderstorm Wind": 342,
+      "Tornado": 96,
+      "Wildfire": 27,
+      "Winter Storm": 42
+    },
+    "final": {
+      "Flash Flood": 144,
+      "Hail": 105,
+      "Thunderstorm Wind": 337,
+      "Tornado": 99,
+      "Wildfire": 29,
+      "Winter Storm": 40
+    },
+    "train": {
+      "Flash Flood": 582,
+      "Hail": 415,
+      "Thunderstorm Wind": 1488,
+      "Tornado": 413,
+      "Wildfire": 133,
+      "Winter Storm": 193
+    }
+  },
+  "counts": {
+    "development": {
+      "Flash Flood": 434,
+      "Hail": 219,
+      "Thunderstorm Wind": 1239,
+      "Tornado": 306,
+      "Wildfire": 41,
+      "Winter Storm": 210
+    },
+    "final": {
+      "Flash Flood": 433,
+      "Hail": 219,
+      "Thunderstorm Wind": 1238,
+      "Tornado": 306,
+      "Wildfire": 41,
+      "Winter Storm": 210
+    },
+    "train": {
+      "Flash Flood": 2023,
+      "Hail": 1022,
+      "Thunderstorm Wind": 5780,
+      "Tornado": 1430,
+      "Wildfire": 194,
+      "Winter Storm": 981
+    }
+  },
+  "cross_episode_near_duplicate_edges": 1882,
+  "excluded_event_ids": [
+    "1180057",
+    "1180058",
+    "1191568",
+    "1191570",
+    "1193768",
+    "1193769"
+  ],
+  "group_counts": {
+    "development": 547,
+    "final": 545,
+    "train": 2554
+  },
+  "groups": 3646,
+  "largest_group_rows": 225,
+  "near_duplicate_edges": 3195,
+  "rows": 16326,
+  "source_sha256": "2070b83eccab041b36360ab73645b9a249c3eefc5b92b5b3fc0cbba4d9fcc09c",
+  "target_fractions": {
+    "development": 0.15,
+    "final": 0.15,
+    "train": 0.7
+  },
+  "validation": {
+    "complete_unique_assignment": true,
+    "episode_overlap": 0,
+    "exact_narrative_overlap": 0,
+    "minimum_class_support_passed": true,
+    "near_duplicate_edge_overlap": 0
+  },
+  "version": "episode-shingle-v1"
+}

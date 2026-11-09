@@ -1,0 +1,69 @@
+{
+  "artifact": "merged",
+  "artifact_fingerprint": "4af80c757cd6dd2f63a7fd0ab3d009b51dc2655e57a44e72a16b6fd17d4dc106",
+  "total": 5,
+  "passed": 5,
+  "protocol": "identical raw prompt, greedy16, exact label parser",
+  "cases": [
+    {
+      "text": "A tornado touched down and followed a narrow damage path before lifting.",
+      "expected": "Tornado",
+      "prediction": "Tornado",
+      "raw_completion": "Tornado",
+      "token_ids": [
+        51,
+        62943
+      ],
+      "output_tokens": 2,
+      "correct": true
+    },
+    {
+      "text": "Golf ball sized hail fell across the town during the thunderstorm.",
+      "expected": "Hail",
+      "prediction": "Hail",
+      "raw_completion": "Hail",
+      "token_ids": [
+        39,
+        604
+      ],
+      "output_tokens": 2,
+      "correct": true
+    },
+    {
+      "text": "Heavy snow and sleet from a winter storm covered roads with deep drifts.",
+      "expected": "Winter Storm",
+      "prediction": "Winter Storm",
+      "raw_completion": "Winter Storm",
+      "token_ids": [
+        66188,
+        21862
+      ],
+      "output_tokens": 2,
+      "correct": true
+    },
+    {
+      "text": "The wildfire burned forest and grassland and was partially contained.",
+      "expected": "Wildfire",
+      "prediction": "Wildfire",
+      "raw_completion": "Wildfire",
+      "token_ids": [
+        40603,
+        10796
+      ],
+      "output_tokens": 2,
+      "correct": true
+    },
+    {
+      "text": "A flash flood rapidly inundated streets after intense rainfall in one hour.",
+      "expected": "Flash Flood",
+      "prediction": "Flash Flood",
+      "raw_completion": "Flash Flood",
+      "token_ids": [
+        23876,
+        56127
+      ],
+      "output_tokens": 2,
+      "correct": true
+    }
+  ]
+}

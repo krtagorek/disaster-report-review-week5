@@ -1,0 +1,17 @@
+{
+  "title": "Week 5 Project Handout (Oct 2026).pdf",
+  "pdf_sha256": "51c1a1b77da2c22c707a6769fce58ac04fa99debf298e04e491bf3321c0db2e2",
+  "reviewed_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "notebook_url": "https://github.com/The-Gen-Academy/5A-Fine-Tune-a-Support-Ticket-Router/blob/main/Finetune_Support_Ticket_Classifier_Qwen3.ipynb",
+  "notebook_snapshot_sha256": "c35c4b94903416e126f8606eed28e825f6cdb34b35955dfcd8902c9df3fe18ed",
+  "reviewed_on": "2026-11-06",
+  "baseline_reference_cell": 16,
+  "custom_submission": "GitHub assets plus Loom video",
+  "literal_example_stack": "Colab Tesla T4, LLaMA Factory/LLaMA Board",
+  "project_adaptation": "Local Apple M5/MLX and NOAA narrative data, as already documented in AGENTS.md; not literal execution of the example notebook."
+}

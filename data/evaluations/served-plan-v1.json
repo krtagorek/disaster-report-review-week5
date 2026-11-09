@@ -1,0 +1,14 @@
+{
+  "declared_before_served_predictions": true,
+  "artifact": "runtime/merged-lora-v1",
+  "split": "development",
+  "rows": 2449,
+  "endpoint": "POST /api/classify with text only",
+  "interface": "Actual local review-app HTTP endpoint; same route and dedicated model worker as browser UI",
+  "request_batch_size": 1,
+  "decoding": "Unchanged raw prompt, greedy temperature0, max16 output tokens, EOS151643, strict complete-label parser",
+  "checks": "Five previously declared smoke cases over HTTP before full evaluation; hash-verified artifact and serving code; exact development IDs/order; count invalid output as wrong; measure single-request vs offline batch8 drift",
+  "reserved_final": "not read, loaded or evaluated",
+  "runtime_database": "Separate project-local QA database; no evaluation records are saved to the user review queue",
+  "deployment_scope": "Loopback-only local app. No publication, retraining or numerical acceptance gate added. Report actual served metrics and residual errors."
+}

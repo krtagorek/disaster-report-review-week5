@@ -1,0 +1,109 @@
+{
+  "n": 2449,
+  "accuracy": 0.6402613311555737,
+  "macro_f1": 0.5654011720909894,
+  "invalid_count": 0,
+  "per_class": {
+    "Flash Flood": {
+      "precision": 0.6580547112462006,
+      "recall": 0.9976958525345622,
+      "f1": 0.793040293040293,
+      "support": 434
+    },
+    "Tornado": {
+      "precision": 0.48355263157894735,
+      "recall": 0.9607843137254902,
+      "f1": 0.6433260393873085,
+      "support": 306
+    },
+    "Thunderstorm Wind": {
+      "precision": 0.9878472222222222,
+      "recall": 0.45924132364810333,
+      "f1": 0.6269972451790634,
+      "support": 1239
+    },
+    "Hail": {
+      "precision": 0.9464285714285714,
+      "recall": 0.9680365296803652,
+      "f1": 0.9571106094808125,
+      "support": 219
+    },
+    "Winter Storm": {
+      "precision": 1.0,
+      "recall": 0.09523809523809523,
+      "f1": 0.17391304347826084,
+      "support": 210
+    },
+    "Wildfire": {
+      "precision": 0.11019283746556474,
+      "recall": 0.975609756097561,
+      "f1": 0.198019801980198,
+      "support": 41
+    }
+  },
+  "confusion_matrix": {
+    "Flash Flood": {
+      "Flash Flood": 433,
+      "Tornado": 0,
+      "Thunderstorm Wind": 0,
+      "Hail": 0,
+      "Winter Storm": 0,
+      "Wildfire": 1,
+      "INVALID": 0
+    },
+    "Tornado": {
+      "Flash Flood": 3,
+      "Tornado": 294,
+      "Thunderstorm Wind": 4,
+      "Hail": 0,
+      "Winter Storm": 0,
+      "Wildfire": 5,
+      "INVALID": 0
+    },
+    "Thunderstorm Wind": {
+      "Flash Flood": 120,
+      "Tornado": 312,
+      "Thunderstorm Wind": 569,
+      "Hail": 12,
+      "Winter Storm": 0,
+      "Wildfire": 226,
+      "INVALID": 0
+    },
+    "Hail": {
+      "Flash Flood": 1,
+      "Tornado": 2,
+      "Thunderstorm Wind": 2,
+      "Hail": 212,
+      "Winter Storm": 0,
+      "Wildfire": 2,
+      "INVALID": 0
+    },
+    "Winter Storm": {
+      "Flash Flood": 101,
+      "Tornado": 0,
+      "Thunderstorm Wind": 0,
+      "Hail": 0,
+      "Winter Storm": 20,
+      "Wildfire": 89,
+      "INVALID": 0
+    },
+    "Wildfire": {
+      "Flash Flood": 0,
+      "Tornado": 0,
+      "Thunderstorm Wind": 1,
+      "Hail": 0,
+      "Winter Storm": 0,
+      "Wildfire": 40,
+      "INVALID": 0
+    }
+  },
+  "confusion_orientation": "rows=reference; columns=prediction; INVALID counts as incorrect",
+  "artifact": "adapter",
+  "protocol": "letter",
+  "artifact_fingerprint": "52b33c73a8e6ff0941713ea9c75f2a2b12acbe28267d147c24dc7b23d7a92233",
+  "predictions_sha256": "96efe69900f0179cc7f98c78f1f020eb144ff1a6706676543c9c0cae16761051",
+  "split": "development",
+  "peak_memory_gb": 4.946622016,
+  "seconds": 157.88978379196487,
+  "max_token_budget_completions": null
+}

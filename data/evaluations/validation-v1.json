@@ -1,0 +1,36 @@
+{
+  "development_only": true,
+  "evaluations": {
+    "keyword-development-v1": {
+      "rows": 2449,
+      "unique_ids_and_order_match_development": true,
+      "metrics_recomputed_exactly": true,
+      "predictions_sha256": "17120d7e9c77b40ac37b8d9343bb72f11d70621ed20354d71e570fe41f253f71",
+      "metrics_sha256": "cede8bd647a94c24ca1a13467e530191cae4bf3d46cbcb39dbd21017c991d437"
+    },
+    "untuned-development-v1": {
+      "rows": 2449,
+      "unique_ids_and_order_match_development": true,
+      "metrics_recomputed_exactly": true,
+      "predictions_sha256": "58898377eddea89a1a4c02af8f6e9b39fe4890530640885152ab80acac1dbf98",
+      "metrics_sha256": "e5fa2744d267c428e1d3a61b97e3e0a87e9f5757c5961e338fb708c52e8ce0b1"
+    },
+    "letter-development-v1": {
+      "rows": 2449,
+      "unique_ids_and_order_match_development": true,
+      "metrics_recomputed_exactly": true,
+      "predictions_sha256": "3ca1332f22b301b223673a901af3170550b984f5a262fdf33dd17f6a7cf630d3",
+      "metrics_sha256": "90e836bfb7b7104778d83949b129992d84f6ac6e6a8582e1b1a9a066fde07dcd"
+    }
+  },
+  "letter_batch_check": {
+    "rows": 8,
+    "unbatched_predictions_match": true,
+    "maximum_absolute_logit_difference": 0.0,
+    "logit_tolerance": {
+      "atol": 0.5,
+      "rtol": 0.01
+    },
+    "note": "BF16 kernels can differ slightly with batch shape; predictions must match on this check."
+  }
+}

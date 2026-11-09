@@ -1,0 +1,62 @@
+{
+  "adapter_sha256": "52b33c73a8e6ff0941713ea9c75f2a2b12acbe28267d147c24dc7b23d7a92233",
+  "training_log_sha256": "e5f02eef907b3612c469aac5b09be57446e56c52581cb5487499d054313c0454",
+  "loss_units": "mean negative log likelihood in nats per supervised label/EOS token",
+  "training_points": 30,
+  "training_first_20_step_mean": 0.24246721267700194,
+  "training_last_20_step_mean": 0.03576172590255737,
+  "development_monitor_rows": 240,
+  "monitor_class_balance": "40 per class; not full-development population-weighted loss",
+  "monitor_points": [
+    {
+      "kind": "development_monitor",
+      "iteration": 0,
+      "val_loss": 0.2015002965927124,
+      "val_time": 9.010722083970904
+    },
+    {
+      "kind": "development_monitor",
+      "iteration": 99,
+      "val_loss": 0.06595350801944733,
+      "val_time": 8.67918674997054
+    },
+    {
+      "kind": "development_monitor",
+      "iteration": 199,
+      "val_loss": 0.04126496985554695,
+      "val_time": 8.976168832974508
+    },
+    {
+      "kind": "development_monitor",
+      "iteration": 299,
+      "val_loss": 0.056572817265987396,
+      "val_time": 8.828565874835476
+    },
+    {
+      "kind": "development_monitor",
+      "iteration": 399,
+      "val_loss": 0.05402546003460884,
+      "val_time": 8.75778004201129
+    },
+    {
+      "kind": "development_monitor",
+      "iteration": 499,
+      "val_loss": 0.037320442497730255,
+      "val_time": 8.72459129197523
+    },
+    {
+      "kind": "development_monitor",
+      "iteration": 599,
+      "val_loss": 0.04730449989438057,
+      "val_time": 8.679504749830812
+    }
+  ],
+  "initial_monitor_loss": 0.2015002965927124,
+  "final600_monitor_loss": 0.046790484338998795,
+  "best_logged_monitor_loss": 0.037320442497730255,
+  "final_minus_best_logged_monitor": 0.00947004184126854,
+  "final_checkpoint_selection": "predeclared final600, not loss-minimizing checkpoint selection",
+  "finite_losses": true,
+  "trainer_iteration_note": "stock trainer callbacks report completed updates before next update:0,99,...599; separate final600 loss measured after saved adapter reload",
+  "interpretation": "Loss evidence alone does not prove classification usefulness. Inspect full-development matched metrics and all class regressions; no additional training is triggered."
+}

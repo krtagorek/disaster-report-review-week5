@@ -1,0 +1,20 @@
+{
+  "declared_before_predictions": true,
+  "split": "development",
+  "rows": 2449,
+  "model": "Qwen/Qwen3-1.7B-Base",
+  "artifact": "original upstream bfloat16 weights loaded directly by MLX; no quantization, adapter or conversion",
+  "prompt_contract": "scripts/baseline_common.py:prompt; raw completion, no chat template, no few-shot examples",
+  "decoding": {"temperature": 0, "max_tokens": 16, "batch_size": 8, "seed": 0, "stop": "model EOS tokens"},
+  "parsing": "strip surrounding whitespace; accept only exact complete category names; extra text invalid",
+  "keyword_policy": "scripts/baseline_common.py:KEYWORDS; occurrence count; manifest-order tie break; training-majority Wind fallback",
+  "metrics": ["accuracy", "macro_f1", "per_class_precision_recall_f1_support", "confusion_matrix_with_invalid_column", "invalid_count"],
+  "policy": "One untuned prompt, no prompt sweep. Invalid completions count as wrong. No reserved-final reads or evaluation. No training in this milestone. These baselines are not deployment approval.",
+  "smoke_cases_for_future_merged_artifact": [
+    {"text": "A tornado touched down and followed a narrow damage path before lifting.", "expected": "Tornado"},
+    {"text": "Golf ball sized hail fell across the town during the thunderstorm.", "expected": "Hail"},
+    {"text": "Heavy snow and sleet from a winter storm covered roads with deep drifts.", "expected": "Winter Storm"},
+    {"text": "The wildfire burned forest and grassland and was partially contained.", "expected": "Wildfire"},
+    {"text": "A flash flood rapidly inundated streets after intense rainfall in one hour.", "expected": "Flash Flood"}
+  ]
+}

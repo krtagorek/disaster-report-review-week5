@@ -1,0 +1,70 @@
+{
+  "repo_id": "Qwen/Qwen3-1.7B-Base",
+  "revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+  "license": "apache-2.0",
+  "model_manifest_sha256": "549c2e6fa6cc93466e1efb632dd2bde5f19b6cf00dcebcd03f9682c6d55ae5d3",
+  "load_seconds": 1.3186329170130193,
+  "device": "Device(gpu, 0)",
+  "machine": "arm64",
+  "python": "3.11.16",
+  "packages": {
+    "mlx": "0.32.4",
+    "mlx-metal": "0.32.4",
+    "mlx-lm": "0.32.2",
+    "transformers": "5.22.2",
+    "tokenizers": "0.23.3",
+    "huggingface-hub": "2.4.0"
+  },
+  "parameter_count": 1720574976,
+  "parameter_dtypes": [
+    "mlx.core.bfloat16"
+  ],
+  "quantized": false,
+  "conversion": "MLX upstream tensor sanitization only; no saved conversion or dtype change",
+  "forward_shape": [
+    1,
+    56,
+    151936
+  ],
+  "finite_logits": true,
+  "peak_memory_gb": 3.491891288,
+  "boundary": {
+    "checked_development_prompts": 2449,
+    "labels_per_prompt": 6,
+    "label_ids": {
+      "Flash Flood": [
+        23876,
+        56127
+      ],
+      "Tornado": [
+        51,
+        62943
+      ],
+      "Thunderstorm Wind": [
+        95912,
+        26413,
+        22087
+      ],
+      "Hail": [
+        39,
+        604
+      ],
+      "Winter Storm": [
+        66188,
+        21862
+      ],
+      "Wildfire": [
+        40603,
+        10796
+      ]
+    },
+    "eos_id": 151643,
+    "eos_ids": [
+      151643
+    ],
+    "prompt_tokens_min": 59,
+    "prompt_tokens_max": 483,
+    "training_contract": "encode(prompt) + encode(label) + [151643]; mask prompt loss, supervise label and EOS; no BOS or chat template",
+    "passed": true
+  }
+}

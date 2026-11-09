@@ -1,0 +1,25 @@
+{
+  "model": {
+    "run_id": "merged-lora-v1/raw",
+    "artifact_fingerprint": "4af80c757cd6dd2f63a7fd0ab3d009b51dc2655e57a44e72a16b6fd17d4dc106",
+    "base_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+    "quantization": null,
+    "dtype": "bfloat16",
+    "prompt_sha256": "886a6a58473f4e618cbb0c1999aea7dd4d50174e3f91b8739592b506015dad26",
+    "predictor_sha256": "5a76399522851441eeaf046c1a733ab13ab49e60efd68865be903fdec0bd99a6",
+    "decoding": {
+      "temperature": 0,
+      "max_tokens": 16,
+      "stop": "EOS151643",
+      "parser": "exact full label after whitespace strip"
+    },
+    "serving_code_sha256": {
+      "core.py": "734f67fa773fdaa4b1a11cff343598fa7f6782cf0e24c4d59039174c8414234f",
+      "model.py": "e617b2b187e23678d2cd9dea7e97704498b884201a2c4b2e9d6fb3bc5127bbc1",
+      "server.py": "1982a410cb14fb110007222da53f3f6081d742f63d26f307249172621160355d"
+    },
+    "serving": "one report per HTTP request; serial dedicated MLX worker"
+  },
+  "plan_sha256": "6ef434c1b3131e7f2349ad47b0e16dc31ab917394bd53feffcce667293c9ac7c",
+  "evaluator_sha256": "6115c3f3137cb1df39f67f94c7f0355464f05c1be80d7b09d57cc7b4e78235c5"
+}

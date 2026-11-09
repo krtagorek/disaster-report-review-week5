@@ -1,0 +1,23 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv*/
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+runtime/
+data/raw/
+*.log
+*.safetensors
+*.gguf
+*.sqlite3*
+*.db
+
+# Project-local package/download caches and intermediate files
+work/
+
+# Local recording script
+/docs/LOOM_WALKTHROUGH.md

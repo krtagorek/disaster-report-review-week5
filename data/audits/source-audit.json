@@ -1,0 +1,49 @@
+{
+  "source_sha256": "2070b83eccab041b36360ab73645b9a249c3eefc5b92b5b3fc0cbba4d9fcc09c",
+  "source_rows": 69801,
+  "duplicate_event_ids": 0,
+  "source_episodes": 9909,
+  "classes": {
+    "Flash Flood": {
+      "all_rows": 4661,
+      "candidate_rows_by_length_only": 2890,
+      "unique_normalized_candidate_narratives": 2877,
+      "candidate_episodes": 886
+    },
+    "Tornado": {
+      "all_rows": 2137,
+      "candidate_rows_by_length_only": 2042,
+      "unique_normalized_candidate_narratives": 1986,
+      "candidate_episodes": 628
+    },
+    "Thunderstorm Wind": {
+      "all_rows": 19940,
+      "candidate_rows_by_length_only": 8260,
+      "unique_normalized_candidate_narratives": 8188,
+      "candidate_episodes": 2260
+    },
+    "Hail": {
+      "all_rows": 8941,
+      "candidate_rows_by_length_only": 1463,
+      "unique_normalized_candidate_narratives": 1451,
+      "candidate_episodes": 661
+    },
+    "Winter Storm": {
+      "all_rows": 2112,
+      "candidate_rows_by_length_only": 1401,
+      "unique_normalized_candidate_narratives": 1329,
+      "candidate_episodes": 293
+    },
+    "Wildfire": {
+      "all_rows": 336,
+      "candidate_rows_by_length_only": 276,
+      "unique_normalized_candidate_narratives": 251,
+      "candidate_episodes": 212
+    }
+  },
+  "candidate_rows_by_length_only": 16332,
+  "identical_candidate_narratives_with_multiple_labels": 3,
+  "limits": "Length/structure audit only. Not an approved training set, semantic label audit, dataset split or classifier evaluation.",
+  "model_calls": 0,
+  "training": false
+}

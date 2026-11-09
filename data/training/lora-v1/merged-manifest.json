@@ -1,0 +1,27 @@
+{
+  "base_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+  "adapter_sha256": "52b33c73a8e6ff0941713ea9c75f2a2b12acbe28267d147c24dc7b23d7a92233",
+  "fused_linear_layers": 32,
+  "parameter_count": 1720574976,
+  "dtypes": [
+    "mlx.core.bfloat16"
+  ],
+  "quantization": null,
+  "tokenizer_parity_development_rows": 2449,
+  "tokenizer_protocols": [
+    "raw",
+    "letter"
+  ],
+  "rounding": "MLX native fuse casts delta to BF16 and adds to BF16 base; potential merge drift must be measured",
+  "files_sha256": {
+    "LICENSE": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+    "README.md": "f7288260e024e6a4fa52b2af724cb78005fb7c564e102c633112bbdc93616839",
+    "chat_template.jinja": "87a2728cb8dc9fe424d624542f6060ec05a1d285ebbec578bb078900e33396b5",
+    "config.json": "3f32852a8648a37a4c74bd0037177dc31e9fd12ee8688800c20921e4af18f623",
+    "generation_config.json": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+    "model.safetensors": "6dc042d2b16b08717c3d960fe92125fc5c572e52e94ef19593429df3c41eeb38",
+    "model.safetensors.index.json": "5bc27eb752e76bec3235ce08f98789307f6b3f00f3be241d9fa42a3a50c9fbe8",
+    "tokenizer.json": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+    "tokenizer_config.json": "9fbf0521a74a69fc5184bb5853ed113feae68adc7d4a44799004ceef405c8e49"
+  }
+}

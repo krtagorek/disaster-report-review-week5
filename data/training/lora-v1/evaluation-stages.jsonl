@@ -1,0 +1,4 @@
+{"artifact": "adapter", "protocol": "raw", "seconds": 143.7361230419483, "metrics_sha256": "79b0d40b7258af15d0c743310e3c69332ab86e96f73f59e1e0ed65f65e42349f"}
+{"artifact": "merged", "protocol": "raw", "seconds": 136.75697225006297, "metrics_sha256": "73f81df1e3a8f516ffce469a2527c8ada2ed38a0323ea2826d88c9e17d65b04e"}
+{"artifact": "adapter", "protocol": "letter", "seconds": 161.39526050002314, "metrics_sha256": "3e39ba64bfcaa7d655b804768d966b4c84d9fce59d5f35ac717d09ad1bf46161"}
+{"artifact": "merged", "protocol": "letter", "seconds": 153.3096533329226, "metrics_sha256": "be58f117459e2725b8832b2207e012043a458cb7ad242b4d51fe64e3d31ba253"}

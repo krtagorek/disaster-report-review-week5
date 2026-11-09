@@ -1,0 +1,298 @@
+{
+  "source_sha256": "2070b83eccab041b36360ab73645b9a249c3eefc5b92b5b3fc0cbba4d9fcc09c",
+  "stage": "pre-split inspection; no predictions or semantic approval of all rows",
+  "candidate_count": 16332,
+  "conflicting_groups": [
+    [
+      {
+        "EVENT_ID": "1180057",
+        "EPISODE_ID": "191034",
+        "EVENT_TYPE": "Hail",
+        "EVENT_NARRATIVE": "Hail up to golf ball size was accompanied by wind gusts estimated to be near 70 MPH."
+      },
+      {
+        "EVENT_ID": "1180058",
+        "EPISODE_ID": "191034",
+        "EVENT_TYPE": "Thunderstorm Wind",
+        "EVENT_NARRATIVE": "Hail up to golf ball size was accompanied by wind gusts estimated to be near 70 MPH."
+      }
+    ],
+    [
+      {
+        "EVENT_ID": "1191568",
+        "EPISODE_ID": "192861",
+        "EVENT_TYPE": "Thunderstorm Wind",
+        "EVENT_NARRATIVE": "Wind gusts were estimated to be near 75 MPH, and was accompanied by hail as large as half dollars. At least one irrigation pivot was flipped, and severe crop damage was reported."
+      },
+      {
+        "EVENT_ID": "1191570",
+        "EPISODE_ID": "192861",
+        "EVENT_TYPE": "Hail",
+        "EVENT_NARRATIVE": "Wind gusts were estimated to be near 75 MPH, and was accompanied by hail as large as half dollars. At least one irrigation pivot was flipped, and severe crop damage was reported."
+      }
+    ],
+    [
+      {
+        "EVENT_ID": "1193768",
+        "EPISODE_ID": "193018",
+        "EVENT_TYPE": "Thunderstorm Wind",
+        "EVENT_NARRATIVE": "A wind gust of 61 MPH was measured by a trained spotter. Wind was accompanied by quarter to golf ball size hail."
+      },
+      {
+        "EVENT_ID": "1193769",
+        "EPISODE_ID": "193018",
+        "EVENT_TYPE": "Hail",
+        "EVENT_NARRATIVE": "A wind gust of 61 MPH was measured by a trained spotter. Wind was accompanied by quarter to golf ball size hail."
+      }
+    ]
+  ],
+  "predeclared_exclusions": [
+    {
+      "event_id": "1180057",
+      "reason": "identical normalized narrative has multiple selected reference labels"
+    },
+    {
+      "event_id": "1180058",
+      "reason": "identical normalized narrative has multiple selected reference labels"
+    },
+    {
+      "event_id": "1191568",
+      "reason": "identical normalized narrative has multiple selected reference labels"
+    },
+    {
+      "event_id": "1191570",
+      "reason": "identical normalized narrative has multiple selected reference labels"
+    },
+    {
+      "event_id": "1193768",
+      "reason": "identical normalized narrative has multiple selected reference labels"
+    },
+    {
+      "event_id": "1193769",
+      "reason": "identical normalized narrative has multiple selected reference labels"
+    }
+  ],
+  "classes": {
+    "Flash Flood": {
+      "candidate_count": 2890,
+      "remaining_after_conflict_exclusion": 2890,
+      "inspection_examples": [
+        {
+          "EVENT_ID": "1199121",
+          "EPISODE_ID": "193729",
+          "EVENT_TYPE": "Flash Flood",
+          "EVENT_NARRATIVE": "Jones County Emergency Manager reported water impacting HWY 41 and HWY 258 in western Jones County near Hargetts Crossroads. Time based on radar."
+        },
+        {
+          "EVENT_ID": "1192387",
+          "EPISODE_ID": "193100",
+          "EVENT_TYPE": "Flash Flood",
+          "EVENT_NARRATIVE": "Social media report with pictures showing water over a county road at this location."
+        },
+        {
+          "EVENT_ID": "1165099",
+          "EPISODE_ID": "189432",
+          "EVENT_TYPE": "Flash Flood",
+          "EVENT_NARRATIVE": "Rain and snowmelt caused the Lincoln Brook to flood washing out a 20-foot section Lincoln Pond Road in Rangeley."
+        },
+        {
+          "EVENT_ID": "1171080",
+          "EPISODE_ID": "190513",
+          "EVENT_TYPE": "Flash Flood",
+          "EVENT_NARRATIVE": "A persistent thunderstorm with high rainfall rates resulted in quick rainfall accumulations and flooding on some rural gravel roads and minor flooding along area creeks and streams. A persistent area of moderate rainfall after the heaviest rain had ended further exacerbated flooding issues into the evening hours. Rainfall totals across the area by the time rainfall ended overnight were in the 2 to 4 inch range."
+        },
+        {
+          "EVENT_ID": "1204485",
+          "EPISODE_ID": "194801",
+          "EVENT_TYPE": "Flash Flood",
+          "EVENT_NARRATIVE": "Thunderstorms during the evening hours dumped two to five inches of rain in less than three hours over portions of northern Lawrence County. Runoff from the heavy rain caused minor street flooding in Deadwood and a small portion of Crook Mountain Road to be inundated with water and debris."
+        }
+      ]
+    },
+    "Tornado": {
+      "candidate_count": 2042,
+      "remaining_after_conflict_exclusion": 2042,
+      "inspection_examples": [
+        {
+          "EVENT_ID": "1173103",
+          "EPISODE_ID": "190743",
+          "EVENT_TYPE": "Tornado",
+          "EVENT_NARRATIVE": "A tornado touched down just south of Indian Ridge Lane, 2.9 miles northwest of Defiance. As it tracked to the east northeast it snapped off or uprooted several large trees, as well as snapping off numerous tree limbs. No structural damage was reported. The tornado lifted and dissipated around 3 miles north of Defiance.  Overall, the tornado was rated EF0 with a path length of 2.23 miles and a max path width of 50 yards. No deaths or injuries were reported."
+        },
+        {
+          "EVENT_ID": "1208468",
+          "EPISODE_ID": "195323",
+          "EVENT_TYPE": "Tornado",
+          "EVENT_NARRATIVE": "A tornado briefly touched down in a agriculture field along Springfield Road. Several small softwood trees were snapped and uprooted. Several crop damage swirls were also seen throughout the field. A tornado debris signature was noted on radar at the time."
+        },
+        {
+          "EVENT_ID": "1170801",
+          "EPISODE_ID": "190468",
+          "EVENT_TYPE": "Tornado",
+          "EVENT_NARRATIVE": "A brief tornado was determined to have passed from State Road 4A through Diane Avenue and Linda Street on the northern portion of Little Torch Key.  The narrow path was marked by two downed buttonwood trees, broken small and medium-sized tree branches, a destroyed plastic storage shed, and three destroyed breakaway shade canopies.  No structural damage was observed.  Estimated maximum winds were 65 to 70 mph."
+        },
+        {
+          "EVENT_ID": "1217399",
+          "EPISODE_ID": "196430",
+          "EVENT_TYPE": "Tornado",
+          "EVENT_NARRATIVE": "EF-1 Tornado confirmed by NWS Storm Survey. Discontinuous 6 mile path of damage, with several areas of extensive tree damage with dozens of snapped and uprooted trees."
+        },
+        {
+          "EVENT_ID": "1180112",
+          "EPISODE_ID": "190987",
+          "EVENT_TYPE": "Tornado",
+          "EVENT_NARRATIVE": "Spotters and chasers reported a very brief touchdown along FM 1499, just west of Pat Mayse Lake. The EM found small tree branches broken in the area."
+        }
+      ]
+    },
+    "Thunderstorm Wind": {
+      "candidate_count": 8260,
+      "remaining_after_conflict_exclusion": 8257,
+      "inspection_examples": [
+        {
+          "EVENT_ID": "1203975",
+          "EPISODE_ID": "194681",
+          "EVENT_TYPE": "Thunderstorm Wind",
+          "EVENT_NARRATIVE": "State police report a semi truck driver was injured when a tree fell onto the cab of the truck."
+        },
+        {
+          "EVENT_ID": "1205863",
+          "EPISODE_ID": "195080",
+          "EVENT_TYPE": "Thunderstorm Wind",
+          "EVENT_NARRATIVE": "Thunderstorm winds downed multiple trees and large branches across the southeast portions of Vermillion."
+        },
+        {
+          "EVENT_ID": "1156490",
+          "EPISODE_ID": "188249",
+          "EVENT_TYPE": "Thunderstorm Wind",
+          "EVENT_NARRATIVE": "Numerous trees were uprooted in the Ashridge community along Highway 195. The highway was blocked by a large pine tree, while two trees, a pine and a maple, uprooted and fell into a house. Nearby, an open air lean-to metal farm shed was blown down. Other trees were uprooted in neighboring yards."
+        },
+        {
+          "EVENT_ID": "1168020",
+          "EPISODE_ID": "189720",
+          "EVENT_TYPE": "Thunderstorm Wind",
+          "EVENT_NARRATIVE": "Several large trees, powerlines, and fences were blown down in the town of Searcy."
+        },
+        {
+          "EVENT_ID": "1178136",
+          "EPISODE_ID": "190955",
+          "EVENT_TYPE": "Thunderstorm Wind",
+          "EVENT_NARRATIVE": "Wind gusts estimated to be near 65 MPH resulted in some power pole damage four miles west of Archer. Power outages were also reported in the Central City and Palmer areas."
+        }
+      ]
+    },
+    "Hail": {
+      "candidate_count": 1463,
+      "remaining_after_conflict_exclusion": 1460,
+      "inspection_examples": [
+        {
+          "EVENT_ID": "1179176",
+          "EPISODE_ID": "191513",
+          "EVENT_TYPE": "Hail",
+          "EVENT_NARRATIVE": "Quarter-sized hail fell near Pindall, leading to the accumulation of 1 to 2 inches of hail. CoCoRaHS observer lost most of blueberry crop."
+        },
+        {
+          "EVENT_ID": "1182181",
+          "EPISODE_ID": "191481",
+          "EVENT_TYPE": "Hail",
+          "EVENT_NARRATIVE": "Hail was reported near Princeton as a thunderstorm progressed eastward, with penny size hail near the Princeton Golf Club and quarter size hail on the south side of Princeton. A 56 mph wind gust was observed at the Mesonet station PRNC Princeton KY 2 SE."
+        },
+        {
+          "EVENT_ID": "1213556",
+          "EPISODE_ID": "196146",
+          "EVENT_TYPE": "Hail",
+          "EVENT_NARRATIVE": "A thunderstorm brought golf ball-sized hail to Helper. The hail covered roads, and plows were used to clear the roads."
+        },
+        {
+          "EVENT_ID": "1176575",
+          "EPISODE_ID": "191145",
+          "EVENT_TYPE": "Hail",
+          "EVENT_NARRATIVE": "Public report of hail starting out as dime size then increasing to quarter size."
+        },
+        {
+          "EVENT_ID": "1210740",
+          "EPISODE_ID": "195744",
+          "EVENT_TYPE": "Hail",
+          "EVENT_NARRATIVE": "Facebook report of mostly baseball sized hail, with a few as large as softballs. No stones smaller than golf balls."
+        }
+      ]
+    },
+    "Winter Storm": {
+      "candidate_count": 1401,
+      "remaining_after_conflict_exclusion": 1401,
+      "inspection_examples": [
+        {
+          "EVENT_ID": "1158307",
+          "EPISODE_ID": "188477",
+          "EVENT_TYPE": "Winter Storm",
+          "EVENT_NARRATIVE": "Around 8 to 12 inches of snow was estimated to have fallen across the county in accordance with public snowfall reports received at the office. The highest snowfall reports came out of Norfolk where 10 to 12 inches of snow was measured. This included 10.5 inches measured by an official observer at the Norfolk airport. The peak wind gust measured at the Norfolk airport ASOS station."
+        },
+        {
+          "EVENT_ID": "1149482",
+          "EPISODE_ID": "187309",
+          "EVENT_TYPE": "Winter Storm",
+          "EVENT_NARRATIVE": "Wet snow accumulation of 3-7 inches. Gusty winds of 25-35 mph with scattered small tree limbs down."
+        },
+        {
+          "EVENT_ID": "1158333",
+          "EPISODE_ID": "188478",
+          "EVENT_TYPE": "Winter Storm",
+          "EVENT_NARRATIVE": "An estimated 4 to 8 inches of snow fell across the county for this winter storm. The highest snowfall totals were in the western part of the county along Interstate 29. This includes a public snowfall total report of 8 inches from Persia. Patchy blowing and drifting snow was noted throughout the county on the morning of the 9th."
+        },
+        {
+          "EVENT_ID": "1164617",
+          "EPISODE_ID": "189366",
+          "EVENT_TYPE": "Winter Storm",
+          "EVENT_NARRATIVE": "Very heavy snow fell throughout the Jackson Valley. Amounts in the town of Jackson ranged from 17 to 25 inches, with 26 inches reported near Wilson."
+        },
+        {
+          "EVENT_ID": "1169791",
+          "EPISODE_ID": "189833",
+          "EVENT_TYPE": "Winter Storm",
+          "EVENT_NARRATIVE": "Multiple bands of snow moved through and produced generally 10 to 12 inches of heavy wet snow and 35 mph wind gusts. A CoCoRaHS observer measured 11.4 inches of snow 4 miles NW of Onamia, MN."
+        }
+      ]
+    },
+    "Wildfire": {
+      "candidate_count": 276,
+      "remaining_after_conflict_exclusion": 276,
+      "inspection_examples": [
+        {
+          "EVENT_ID": "1203862",
+          "EPISODE_ID": "194694",
+          "EVENT_TYPE": "Wildfire",
+          "EVENT_NARRATIVE": "The Grouse Fire in the Pioneers (10 miles SW of Wise River) began July 25th, with cause being undetermined at the time of writing. As of late September the fire is 6,009 acres and is 50% contained. Fuels involved include subalpine fir, heavy timber, and large amounts of dead and downed fuels."
+        },
+        {
+          "EVENT_ID": "1206829",
+          "EPISODE_ID": "194711",
+          "EVENT_TYPE": "Wildfire",
+          "EVENT_NARRATIVE": "The Texas Wildfire started July 15 from human cause. It burned 1582 acres of timber and 4 homes. Cost is estimated."
+        },
+        {
+          "EVENT_ID": "1204544",
+          "EPISODE_ID": "194703",
+          "EVENT_TYPE": "Wildfire",
+          "EVENT_NARRATIVE": "The Swawilla Fire has burned 53462 acres of mixed grass and timber. It lasted through the rest of the July. The cost is estimated."
+        },
+        {
+          "EVENT_ID": "1179190",
+          "EPISODE_ID": "191527",
+          "EVENT_TYPE": "Wildfire",
+          "EVENT_NARRATIVE": "The Upper Applegate 3900 Wildfire was discovered on June 20th around 1200 PM PST. The fire started on private land 4 miles south of Ruch, in the Applegate Valley. The cause of the fire is undetermined. As of 530 AM PST on 07/01, it had burned 1,143 acres, was 100% contained, no structures had been destroyed, and it had cost $7M."
+        },
+        {
+          "EVENT_ID": "1209081",
+          "EPISODE_ID": "195616",
+          "EVENT_TYPE": "Wildfire",
+          "EVENT_NARRATIVE": "The Park Fire began the month at 96% contained with 429,603 acres burned. No new structures were destroyed or damaged with minimal activity reported. Afternoon highs ranged from the upper 100s to mid 60s with minimum humidity as low as single digits. The fire was reported fully contained on September 26."
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Five deterministic examples per class are a spot check, not an exhaustive semantic audit.",
+    "No train/development/final assignment exists yet.",
+    "Near duplicates and episode connectivity remain to be computed before splitting."
+  ]
+}

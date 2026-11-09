@@ -1,0 +1,61 @@
+{
+  "passed": 5,
+  "total": 5,
+  "cases": [
+    {
+      "text": "A tornado touched down and followed a narrow damage path before lifting.",
+      "expected": "Tornado",
+      "prediction": "Tornado",
+      "raw_completion": "Tornado",
+      "token_ids": [
+        51,
+        62943
+      ],
+      "correct": true
+    },
+    {
+      "text": "Golf ball sized hail fell across the town during the thunderstorm.",
+      "expected": "Hail",
+      "prediction": "Hail",
+      "raw_completion": "Hail",
+      "token_ids": [
+        39,
+        604
+      ],
+      "correct": true
+    },
+    {
+      "text": "Heavy snow and sleet from a winter storm covered roads with deep drifts.",
+      "expected": "Winter Storm",
+      "prediction": "Winter Storm",
+      "raw_completion": "Winter Storm",
+      "token_ids": [
+        66188,
+        21862
+      ],
+      "correct": true
+    },
+    {
+      "text": "The wildfire burned forest and grassland and was partially contained.",
+      "expected": "Wildfire",
+      "prediction": "Wildfire",
+      "raw_completion": "Wildfire",
+      "token_ids": [
+        40603,
+        10796
+      ],
+      "correct": true
+    },
+    {
+      "text": "A flash flood rapidly inundated streets after intense rainfall in one hour.",
+      "expected": "Flash Flood",
+      "prediction": "Flash Flood",
+      "raw_completion": "Flash Flood",
+      "token_ids": [
+        23876,
+        56127
+      ],
+      "correct": true
+    }
+  ]
+}

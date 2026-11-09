@@ -1,0 +1,41 @@
+{
+  "source_sha256": "2070b83eccab041b36360ab73645b9a249c3eefc5b92b5b3fc0cbba4d9fcc09c",
+  "split_sha256": {
+    "train": "85e28085397db3b09cbd9df27913097d7f0bf36805f6755d494a4b2d072a4e0c",
+    "development": "6709956ef46c976a50b83e90d44bb1995b83d4e104dc8af17c8ea2e7c64f8760"
+  },
+  "summaries": {
+    "train": {
+      "rows": 11430,
+      "max_tokens": 509,
+      "completion_target_tokens": 40070,
+      "class_counts": {
+        "Winter Storm": 981,
+        "Tornado": 1430,
+        "Thunderstorm Wind": 5780,
+        "Flash Flood": 2023,
+        "Hail": 1022,
+        "Wildfire": 194
+      }
+    },
+    "development": {
+      "rows": 2449,
+      "max_tokens": 486,
+      "completion_target_tokens": 8586,
+      "class_counts": {
+        "Thunderstorm Wind": 1239,
+        "Winter Storm": 210,
+        "Flash Flood": 434,
+        "Hail": 219,
+        "Tornado": 306,
+        "Wildfire": 41
+      }
+    }
+  },
+  "monitor_rows": 240,
+  "monitor_policy": "40 per class, SHA256(EVENT_ID) selection",
+  "all_raw_boundaries_pass": true,
+  "actual_batch_mask_checks_pass": true,
+  "padding_supervised": false,
+  "final_accessed": false
+}

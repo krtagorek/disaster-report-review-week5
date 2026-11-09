@@ -1,0 +1,16 @@
+{
+  "declared_before_letter_predictions": true,
+  "reason": "Original handout supplied during this milestone explicitly requires constrained letter-choice baseline; retain earlier raw-completion run as a diagnostic, not the sole baseline.",
+  "split": "development",
+  "rows": 2449,
+  "model": "same pinned, unquantized Qwen/Qwen3-1.7B-Base",
+  "method": "Adapt handout notebook cell 16: explicit system/user chat prompt, six letters A-F in manifest order, first-step logits restricted to six single-token choices; prefer spaced letter if single token, else plain letter. No generated text parsing.",
+  "batch_size": 8,
+  "precision": "bfloat16",
+  "seed": 0,
+  "prompt": "scripts/letter_choice.py:letter_prompt; handout-style chat template used explicitly for this baseline only, not silently substituted for raw completion training contract",
+  "comparisons": "Use same rows and decoding for matched base/adapter/merged/served letter scoring; also compare same raw-completion contract for format reliability. Cross-format delta alone does not isolate training gains.",
+  "no_confidence_claim": "Choice softmax normalizes six logits and is not calibrated confidence or an out-of-scope detector.",
+  "no_sweep": true,
+  "reserved_final": "do not read or evaluate"
+}

@@ -1,0 +1,30 @@
+{
+  "restart_preserved_reviews": 3,
+  "all_saved_fields_unchanged_after_process_restart": true,
+  "post_restart_model_fingerprint": "4af80c757cd6dd2f63a7fd0ab3d009b51dc2655e57a44e72a16b6fd17d4dc106",
+  "post_restart_prediction": "Hail",
+  "browser_verified": [
+    "real model classify",
+    "confirm",
+    "correct",
+    "reopen after reload",
+    "unresolved without forced category",
+    "archived source IDs and attribution",
+    "desktop side-by-side",
+    "narrow responsive layout",
+    "reopen after full process restart",
+    "queue state filter and filtered export links"
+  ],
+  "http_exports_verified": [
+    "CSV",
+    "JSON"
+  ],
+  "test_suite_passed": 12,
+  "qa_database": "runtime/review-qa.sqlite3",
+  "default_database_separate": true,
+  "default_database_exists": false,
+  "frozen_lora_evidence_unchanged": true,
+  "final_accessed": false,
+  "preview_server_stopped_at_completion": true,
+  "filtered_http_export_verified": true
+}

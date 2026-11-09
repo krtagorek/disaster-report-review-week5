@@ -1,0 +1,1140 @@
+{
+  "n": 2449,
+  "split": "development",
+  "identical_ids_labels_order": true,
+  "metrics_recomputed": true,
+  "reports": {
+    "keyword": {
+      "n": 2449,
+      "accuracy": 0.8901592486729277,
+      "macro_f1": 0.8810245728317527,
+      "invalid_count": 0,
+      "per_class": {
+        "Flash Flood": {
+          "precision": 0.9938080495356038,
+          "recall": 0.7396313364055299,
+          "f1": 0.8480845442536328,
+          "support": 434
+        },
+        "Tornado": {
+          "precision": 0.9874476987447699,
+          "recall": 0.7712418300653595,
+          "f1": 0.8660550458715597,
+          "support": 306
+        },
+        "Thunderstorm Wind": {
+          "precision": 0.8309764309764309,
+          "recall": 0.9959644874899112,
+          "f1": 0.9060205580029368,
+          "support": 1239
+        },
+        "Hail": {
+          "precision": 0.9852216748768473,
+          "recall": 0.91324200913242,
+          "f1": 0.947867298578199,
+          "support": 219
+        },
+        "Winter Storm": {
+          "precision": 1.0,
+          "recall": 0.7047619047619048,
+          "f1": 0.8268156424581006,
+          "support": 210
+        },
+        "Wildfire": {
+          "precision": 0.803921568627451,
+          "recall": 1.0,
+          "f1": 0.891304347826087,
+          "support": 41
+        }
+      },
+      "confusion_matrix": {
+        "Flash Flood": {
+          "Flash Flood": 321,
+          "Tornado": 0,
+          "Thunderstorm Wind": 102,
+          "Hail": 3,
+          "Winter Storm": 0,
+          "Wildfire": 8,
+          "INVALID": 0
+        },
+        "Tornado": {
+          "Flash Flood": 0,
+          "Tornado": 236,
+          "Thunderstorm Wind": 70,
+          "Hail": 0,
+          "Winter Storm": 0,
+          "Wildfire": 0,
+          "INVALID": 0
+        },
+        "Thunderstorm Wind": {
+          "Flash Flood": 0,
+          "Tornado": 3,
+          "Thunderstorm Wind": 1234,
+          "Hail": 0,
+          "Winter Storm": 0,
+          "Wildfire": 2,
+          "INVALID": 0
+        },
+        "Hail": {
+          "Flash Flood": 2,
+          "Tornado": 0,
+          "Thunderstorm Wind": 17,
+          "Hail": 200,
+          "Winter Storm": 0,
+          "Wildfire": 0,
+          "INVALID": 0
+        },
+        "Winter Storm": {
+          "Flash Flood": 0,
+          "Tornado": 0,
+          "Thunderstorm Wind": 62,
+          "Hail": 0,
+          "Winter Storm": 148,
+          "Wildfire": 0,
+          "INVALID": 0
+        },
+        "Wildfire": {
+          "Flash Flood": 0,
+          "Tornado": 0,
+          "Thunderstorm Wind": 0,
+          "Hail": 0,
+          "Winter Storm": 0,
+          "Wildfire": 41,
+          "INVALID": 0
+        }
+      },
+      "confusion_orientation": "rows=reference; columns=prediction; INVALID counts as incorrect"
+    },
+    "base_raw": {
+      "n": 2449,
+      "accuracy": 0.717435688035933,
+      "macro_f1": 0.7741390710380717,
+      "invalid_count": 9,
+      "per_class": {
+        "Flash Flood": {
+          "precision": 0.4671201814058957,
+          "recall": 0.9493087557603687,
+          "f1": 0.6261398176291793,
+          "support": 434
+        },
+        "Tornado": {
+          "precision": 0.9028213166144201,
+          "recall": 0.9411764705882353,
+          "f1": 0.9216,
+          "support": 306
+        },
+        "Thunderstorm Wind": {
+          "precision": 0.9461077844311377,
+          "recall": 0.510088781275222,
+          "f1": 0.6628211851074987,
+          "support": 1239
+        },
+        "Hail": {
+          "precision": 0.9943502824858758,
+          "recall": 0.8036529680365296,
+          "f1": 0.8888888888888888,
+          "support": 219
+        },
+        "Winter Storm": {
+          "precision": 0.6322188449848024,
+          "recall": 0.9904761904761905,
+          "f1": 0.771799628942486,
+          "support": 210
+        },
+        "Wildfire": {
+          "precision": 0.6307692307692307,
+          "recall": 1.0,
+          "f1": 0.7735849056603773,
+          "support": 41
+        }
+      },
+      "confusion_matrix": {
+        "Flash Flood": {
+          "Flash Flood": 412,
+          "Tornado": 0,
+          "Thunderstorm Wind": 4,
+          "Hail": 0,
+          "Winter Storm": 13,
+          "Wildfire": 5,
+          "INVALID": 0
+        },
+        "Tornado": {
+          "Flash Flood": 7,
+          "Tornado": 288,
+          "Thunderstorm Wind": 2,
+          "Hail": 0,
+          "Winter Storm": 5,
+          "Wildfire": 1,
+          "INVALID": 3
+        },
+        "Thunderstorm Wind": {
+          "Flash Flood": 462,
+          "Tornado": 29,
+          "Thunderstorm Wind": 632,
+          "Hail": 1,
+          "Winter Storm": 92,
+          "Wildfire": 17,
+          "INVALID": 6
+        },
+        "Hail": {
+          "Flash Flood": 1,
+          "Tornado": 1,
+          "Thunderstorm Wind": 29,
+          "Hail": 176,
+          "Winter Storm": 11,
+          "Wildfire": 1,
+          "INVALID": 0
+        },
+        "Winter Storm": {
+          "Flash Flood": 0,
+          "Tornado": 1,
+          "Thunderstorm Wind": 1,
+          "Hail": 0,
+          "Winter Storm": 208,
+          "Wildfire": 0,
+          "INVALID": 0
+        },
+        "Wildfire": {
+          "Flash Flood": 0,
+          "Tornado": 0,
+          "Thunderstorm Wind": 0,
+          "Hail": 0,
+          "Winter Storm": 0,
+          "Wildfire": 41,
+          "INVALID": 0
+        }
+      },
+      "confusion_orientation": "rows=reference; columns=prediction; INVALID counts as incorrect"
+    },
+    "base_letter": {
+      "n": 2449,
+      "accuracy": 0.2645977950183748,
+      "macro_f1": 0.268486152700047,
+      "invalid_count": 0,
+      "per_class": {
+        "Flash Flood": {
+          "precision": 0.8424242424242424,
+          "recall": 0.32027649769585254,
+          "f1": 0.4641068447412353,
+          "support": 434
+        },
+        "Tornado": {
+          "precision": 0.6355140186915887,
+          "recall": 0.8888888888888888,
+          "f1": 0.7411444141689372,
+          "support": 306
+        },
+        "Thunderstorm Wind": {
+          "precision": 1.0,
+          "recall": 0.008071025020177562,
+          "f1": 0.016012810248198554,
+          "support": 1239
+        },
+        "Hail": {
+          "precision": 1.0,
+          "recall": 0.0730593607305936,
+          "f1": 0.13617021276595745,
+          "support": 219
+        },
+        "Winter Storm": {
+          "precision": 0.12192262602579132,
+          "recall": 0.9904761904761905,
+          "f1": 0.2171189979123173,
+          "support": 210
+        },
+        "Wildfire": {
+          "precision": 0.024193548387096774,
+          "recall": 0.07317073170731707,
+          "f1": 0.03636363636363636,
+          "support": 41
+        }
+      },
+      "confusion_matrix": {
+        "Flash Flood": {
+          "Flash Flood": 139,
+          "Tornado": 1,
+          "Thunderstorm Wind": 0,
+          "Hail": 0,
+          "Winter Storm": 292,
+          "Wildfire": 2,
+          "INVALID": 0
+        },
+        "Tornado": {
+          "Flash Flood": 5,
+          "Tornado": 272,
+          "Thunderstorm Wind": 0,
+          "Hail": 0,
+          "Winter Storm": 28,
+          "Wildfire": 1,
+          "INVALID": 0
+        },
+        "Thunderstorm Wind": {
+          "Flash Flood": 21,
+          "Tornado": 153,
+          "Thunderstorm Wind": 10,
+          "Hail": 0,
+          "Winter Storm": 947,
+          "Wildfire": 108,
+          "INVALID": 0
+        },
+        "Hail": {
+          "Flash Flood": 0,
+          "Tornado": 0,
+          "Thunderstorm Wind": 0,
+          "Hail": 16,
+          "Winter Storm": 193,
+          "Wildfire": 10,
+          "INVALID": 0
+        },
+        "Winter Storm": {
+          "Flash Flood": 0,
+          "Tornado": 2,
+          "Thunderstorm Wind": 0,
+          "Hail": 0,
+          "Winter Storm": 208,
+          "Wildfire": 0,
+          "INVALID": 0
+        },
+        "Wildfire": {
+          "Flash Flood": 0,
+          "Tornado": 0,
+          "Thunderstorm Wind": 0,
+          "Hail": 0,
+          "Winter Storm": 38,
+          "Wildfire": 3,
+          "INVALID": 0
+        }
+      },
+      "confusion_orientation": "rows=reference; columns=prediction; INVALID counts as incorrect"
+    },
+    "adapter_raw": {
+      "n": 2449,
+      "accuracy": 0.9873417721518988,
+      "macro_f1": 0.9878924638351774,
+      "invalid_count": 0,
+      "per_class": {
+        "Flash Flood": {
+          "precision": 1.0,
+          "recall": 0.988479262672811,
+          "f1": 0.9942062572421785,
+          "support": 434
+        },
+        "Tornado": {
+          "precision": 0.996551724137931,
+          "recall": 0.9444444444444444,
+          "f1": 0.9697986577181208,
+          "support": 306
+        },
+        "Thunderstorm Wind": {
+          "precision": 0.9794140934283452,
+          "recall": 0.9983857949959645,
+          "f1": 0.9888089528377297,
+          "support": 1239
+        },
+        "Hail": {
+          "precision": 0.9817351598173516,
+          "recall": 0.9817351598173516,
+          "f1": 0.9817351598173516,
+          "support": 219
+        },
+        "Winter Storm": {
+          "precision": 1.0,
+          "recall": 0.9857142857142858,
+          "f1": 0.9928057553956835,
+          "support": 210
+        },
+        "Wildfire": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 41
+        }
+      },
+      "confusion_matrix": {
+        "Flash Flood": {
+          "Flash Flood": 429,
+          "Tornado": 0,
+          "Thunderstorm Wind": 2,
+          "Hail": 3,
+          "Winter Storm": 0,
+          "Wildfire": 0,
+          "INVALID": 0
+        },
+        "Tornado": {
+          "Flash Flood": 0,
+          "Tornado": 289,
+          "Thunderstorm Wind": 17,
+          "Hail": 0,
+          "Winter Storm": 0,
+          "Wildfire": 0,
+          "INVALID": 0
+        },
+        "Thunderstorm Wind": {
+          "Flash Flood": 0,
+          "Tornado": 1,
+          "Thunderstorm Wind": 1237,
+          "Hail": 1,
+          "Winter Storm": 0,
+          "Wildfire": 0,
+          "INVALID": 0
+        },
+        "Hail": {
+          "Flash Flood": 0,
+          "Tornado": 0,
+          "Thunderstorm Wind": 4,
+          "Hail": 215,
+          "Winter Storm": 0,
+          "Wildfire": 0,
+          "INVALID": 0
+        },
+        "Winter Storm": {
+          "Flash Flood": 0,
+          "Tornado": 0,
+          "Thunderstorm Wind": 3,
+          "Hail": 0,
+          "Winter Storm": 207,
+          "Wildfire": 0,
+          "INVALID": 0
+        },
+        "Wildfire": {
+          "Flash Flood": 0,
+          "Tornado": 0,
+          "Thunderstorm Wind": 0,
+          "Hail": 0,
+          "Winter Storm": 0,
+          "Wildfire": 41,
+          "INVALID": 0
+        }
+      },
+      "confusion_orientation": "rows=reference; columns=prediction; INVALID counts as incorrect"
+    },
+    "adapter_letter": {
+      "n": 2449,
+      "accuracy": 0.6402613311555737,
+      "macro_f1": 0.5654011720909894,
+      "invalid_count": 0,
+      "per_class": {
+        "Flash Flood": {
+          "precision": 0.6580547112462006,
+          "recall": 0.9976958525345622,
+          "f1": 0.793040293040293,
+          "support": 434
+        },
+        "Tornado": {
+          "precision": 0.48355263157894735,
+          "recall": 0.9607843137254902,
+          "f1": 0.6433260393873085,
+          "support": 306
+        },
+        "Thunderstorm Wind": {
+          "precision": 0.9878472222222222,
+          "recall": 0.45924132364810333,
+          "f1": 0.6269972451790634,
+          "support": 1239
+        },
+        "Hail": {
+          "precision": 0.9464285714285714,
+          "recall": 0.9680365296803652,
+          "f1": 0.9571106094808125,
+          "support": 219
+        },
+        "Winter Storm": {
+          "precision": 1.0,
+          "recall": 0.09523809523809523,
+          "f1": 0.17391304347826084,
+          "support": 210
+        },
+        "Wildfire": {
+          "precision": 0.11019283746556474,
+          "recall": 0.975609756097561,
+          "f1": 0.198019801980198,
+          "support": 41
+        }
+      },
+      "confusion_matrix": {
+        "Flash Flood": {
+          "Flash Flood": 433,
+          "Tornado": 0,
+          "Thunderstorm Wind": 0,
+          "Hail": 0,
+          "Winter Storm": 0,
+          "Wildfire": 1,
+          "INVALID": 0
+        },
+        "Tornado": {
+          "Flash Flood": 3,
+          "Tornado": 294,
+          "Thunderstorm Wind": 4,
+          "Hail": 0,
+          "Winter Storm": 0,
+          "Wildfire": 5,
+          "INVALID": 0
+        },
+        "Thunderstorm Wind": {
+          "Flash Flood": 120,
+          "Tornado": 312,
+          "Thunderstorm Wind": 569,
+          "Hail": 12,
+          "Winter Storm": 0,
+          "Wildfire": 226,
+          "INVALID": 0
+        },
+        "Hail": {
+          "Flash Flood": 1,
+          "Tornado": 2,
+          "Thunderstorm Wind": 2,
+          "Hail": 212,
+          "Winter Storm": 0,
+          "Wildfire": 2,
+          "INVALID": 0
+        },
+        "Winter Storm": {
+          "Flash Flood": 101,
+          "Tornado": 0,
+          "Thunderstorm Wind": 0,
+          "Hail": 0,
+          "Winter Storm": 20,
+          "Wildfire": 89,
+          "INVALID": 0
+        },
+        "Wildfire": {
+          "Flash Flood": 0,
+          "Tornado": 0,
+          "Thunderstorm Wind": 1,
+          "Hail": 0,
+          "Winter Storm": 0,
+          "Wildfire": 40,
+          "INVALID": 0
+        }
+      },
+      "confusion_orientation": "rows=reference; columns=prediction; INVALID counts as incorrect"
+    },
+    "merged_raw": {
+      "n": 2449,
+      "accuracy": 0.9873417721518988,
+      "macro_f1": 0.9878924638351774,
+      "invalid_count": 0,
+      "per_class": {
+        "Flash Flood": {
+          "precision": 1.0,
+          "recall": 0.988479262672811,
+          "f1": 0.9942062572421785,
+          "support": 434
+        },
+        "Tornado": {
+          "precision": 0.996551724137931,
+          "recall": 0.9444444444444444,
+          "f1": 0.9697986577181208,
+          "support": 306
+        },
+        "Thunderstorm Wind": {
+          "precision": 0.9794140934283452,
+          "recall": 0.9983857949959645,
+          "f1": 0.9888089528377297,
+          "support": 1239
+        },
+        "Hail": {
+          "precision": 0.9817351598173516,
+          "recall": 0.9817351598173516,
+          "f1": 0.9817351598173516,
+          "support": 219
+        },
+        "Winter Storm": {
+          "precision": 1.0,
+          "recall": 0.9857142857142858,
+          "f1": 0.9928057553956835,
+          "support": 210
+        },
+        "Wildfire": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 41
+        }
+      },
+      "confusion_matrix": {
+        "Flash Flood": {
+          "Flash Flood": 429,
+          "Tornado": 0,
+          "Thunderstorm Wind": 2,
+          "Hail": 3,
+          "Winter Storm": 0,
+          "Wildfire": 0,
+          "INVALID": 0
+        },
+        "Tornado": {
+          "Flash Flood": 0,
+          "Tornado": 289,
+          "Thunderstorm Wind": 17,
+          "Hail": 0,
+          "Winter Storm": 0,
+          "Wildfire": 0,
+          "INVALID": 0
+        },
+        "Thunderstorm Wind": {
+          "Flash Flood": 0,
+          "Tornado": 1,
+          "Thunderstorm Wind": 1237,
+          "Hail": 1,
+          "Winter Storm": 0,
+          "Wildfire": 0,
+          "INVALID": 0
+        },
+        "Hail": {
+          "Flash Flood": 0,
+          "Tornado": 0,
+          "Thunderstorm Wind": 4,
+          "Hail": 215,
+          "Winter Storm": 0,
+          "Wildfire": 0,
+          "INVALID": 0
+        },
+        "Winter Storm": {
+          "Flash Flood": 0,
+          "Tornado": 0,
+          "Thunderstorm Wind": 3,
+          "Hail": 0,
+          "Winter Storm": 207,
+          "Wildfire": 0,
+          "INVALID": 0
+        },
+        "Wildfire": {
+          "Flash Flood": 0,
+          "Tornado": 0,
+          "Thunderstorm Wind": 0,
+          "Hail": 0,
+          "Winter Storm": 0,
+          "Wildfire": 41,
+          "INVALID": 0
+        }
+      },
+      "confusion_orientation": "rows=reference; columns=prediction; INVALID counts as incorrect"
+    },
+    "merged_letter": {
+      "n": 2449,
+      "accuracy": 0.6333197223356472,
+      "macro_f1": 0.5619914630114586,
+      "invalid_count": 0,
+      "per_class": {
+        "Flash Flood": {
+          "precision": 0.6590563165905632,
+          "recall": 0.9976958525345622,
+          "f1": 0.7937671860678277,
+          "support": 434
+        },
+        "Tornado": {
+          "precision": 0.4788273615635179,
+          "recall": 0.9607843137254902,
+          "f1": 0.6391304347826087,
+          "support": 306
+        },
+        "Thunderstorm Wind": {
+          "precision": 0.9874776386404294,
+          "recall": 0.44552058111380144,
+          "f1": 0.614015572858732,
+          "support": 1239
+        },
+        "Hail": {
+          "precision": 0.9506726457399103,
+          "recall": 0.9680365296803652,
+          "f1": 0.9592760180995475,
+          "support": 219
+        },
+        "Winter Storm": {
+          "precision": 1.0,
+          "recall": 0.09523809523809523,
+          "f1": 0.17391304347826084,
+          "support": 210
+        },
+        "Wildfire": {
+          "precision": 0.10638297872340426,
+          "recall": 0.975609756097561,
+          "f1": 0.19184652278177458,
+          "support": 41
+        }
+      },
+      "confusion_matrix": {
+        "Flash Flood": {
+          "Flash Flood": 433,
+          "Tornado": 0,
+          "Thunderstorm Wind": 0,
+          "Hail": 0,
+          "Winter Storm": 0,
+          "Wildfire": 1,
+          "INVALID": 0
+        },
+        "Tornado": {
+          "Flash Flood": 3,
+          "Tornado": 294,
+          "Thunderstorm Wind": 4,
+          "Hail": 0,
+          "Winter Storm": 0,
+          "Wildfire": 5,
+          "INVALID": 0
+        },
+        "Thunderstorm Wind": {
+          "Flash Flood": 119,
+          "Tornado": 318,
+          "Thunderstorm Wind": 552,
+          "Hail": 11,
+          "Winter Storm": 0,
+          "Wildfire": 239,
+          "INVALID": 0
+        },
+        "Hail": {
+          "Flash Flood": 1,
+          "Tornado": 2,
+          "Thunderstorm Wind": 2,
+          "Hail": 212,
+          "Winter Storm": 0,
+          "Wildfire": 2,
+          "INVALID": 0
+        },
+        "Winter Storm": {
+          "Flash Flood": 101,
+          "Tornado": 0,
+          "Thunderstorm Wind": 0,
+          "Hail": 0,
+          "Winter Storm": 20,
+          "Wildfire": 89,
+          "INVALID": 0
+        },
+        "Wildfire": {
+          "Flash Flood": 0,
+          "Tornado": 0,
+          "Thunderstorm Wind": 1,
+          "Hail": 0,
+          "Winter Storm": 0,
+          "Wildfire": 40,
+          "INVALID": 0
+        }
+      },
+      "confusion_orientation": "rows=reference; columns=prediction; INVALID counts as incorrect"
+    }
+  },
+  "matched_deltas": {
+    "adapter_raw": {
+      "accuracy_vs_matched_base": 0.2699060841159657,
+      "macro_f1_vs_matched_base": 0.2137533927971057,
+      "accuracy_vs_keyword": 0.09718252347897105,
+      "per_class_f1_vs_matched_base": {
+        "Flash Flood": 0.36806643961299923,
+        "Tornado": 0.04819865771812082,
+        "Thunderstorm Wind": 0.3259877677302311,
+        "Hail": 0.09284627092846276,
+        "Winter Storm": 0.2210061264531975,
+        "Wildfire": 0.2264150943396227
+      },
+      "per_class_f1_vs_keyword": {
+        "Flash Flood": 0.1461217129885457,
+        "Tornado": 0.10374361184656111,
+        "Thunderstorm Wind": 0.08278839483479294,
+        "Hail": 0.03386786123915264,
+        "Winter Storm": 0.16599011293758292,
+        "Wildfire": 0.10869565217391297
+      }
+    },
+    "adapter_letter": {
+      "accuracy_vs_matched_base": 0.3756635361371989,
+      "macro_f1_vs_matched_base": 0.2969150193909424,
+      "accuracy_vs_keyword": -0.24989791751735402,
+      "per_class_f1_vs_matched_base": {
+        "Flash Flood": 0.3289334482990577,
+        "Tornado": -0.09781837478162869,
+        "Thunderstorm Wind": 0.6109844349308649,
+        "Hail": 0.8209403967148551,
+        "Winter Storm": -0.043205954434056476,
+        "Wildfire": 0.16165616561656165
+      },
+      "per_class_f1_vs_keyword": {
+        "Flash Flood": -0.05504425121333978,
+        "Tornado": -0.2227290064842512,
+        "Thunderstorm Wind": -0.2790233128238734,
+        "Hail": 0.009243310902613544,
+        "Winter Storm": -0.6529025989798397,
+        "Wildfire": -0.693284545845889
+      }
+    },
+    "merged_raw": {
+      "accuracy_vs_matched_base": 0.2699060841159657,
+      "macro_f1_vs_matched_base": 0.2137533927971057,
+      "accuracy_vs_keyword": 0.09718252347897105,
+      "per_class_f1_vs_matched_base": {
+        "Flash Flood": 0.36806643961299923,
+        "Tornado": 0.04819865771812082,
+        "Thunderstorm Wind": 0.3259877677302311,
+        "Hail": 0.09284627092846276,
+        "Winter Storm": 0.2210061264531975,
+        "Wildfire": 0.2264150943396227
+      },
+      "per_class_f1_vs_keyword": {
+        "Flash Flood": 0.1461217129885457,
+        "Tornado": 0.10374361184656111,
+        "Thunderstorm Wind": 0.08278839483479294,
+        "Hail": 0.03386786123915264,
+        "Winter Storm": 0.16599011293758292,
+        "Wildfire": 0.10869565217391297
+      }
+    },
+    "merged_letter": {
+      "accuracy_vs_matched_base": 0.3687219273172723,
+      "macro_f1_vs_matched_base": 0.29350531031141164,
+      "accuracy_vs_keyword": -0.2568395263372806,
+      "per_class_f1_vs_matched_base": {
+        "Flash Flood": 0.3296603413265924,
+        "Tornado": -0.1020139793863285,
+        "Thunderstorm Wind": 0.5980027626105334,
+        "Hail": 0.8231058053335901,
+        "Winter Storm": -0.043205954434056476,
+        "Wildfire": 0.15548288641813823
+      },
+      "per_class_f1_vs_keyword": {
+        "Flash Flood": -0.054317358185805076,
+        "Tornado": -0.226924611088951,
+        "Thunderstorm Wind": -0.2920049851442048,
+        "Hail": 0.011408719521348587,
+        "Winter Storm": -0.6529025989798397,
+        "Wildfire": -0.6994578250443124
+      }
+    }
+  },
+  "merge_drift": {
+    "raw": {
+      "prediction_disagreements": 0,
+      "events": [],
+      "agreement": 1.0,
+      "raw_completion_differences": 0,
+      "token_sequence_differences": 0
+    },
+    "letter": {
+      "prediction_disagreements": 48,
+      "events": [
+        {
+          "event_id": "1150990",
+          "reference_label": "Winter Storm",
+          "adapter_prediction": "Flash Flood",
+          "merged_prediction": "Wildfire"
+        },
+        {
+          "event_id": "1156489",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Flash Flood",
+          "merged_prediction": "Wildfire"
+        },
+        {
+          "event_id": "1157389",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Tornado",
+          "merged_prediction": "Flash Flood"
+        },
+        {
+          "event_id": "1162295",
+          "reference_label": "Winter Storm",
+          "adapter_prediction": "Winter Storm",
+          "merged_prediction": "Flash Flood"
+        },
+        {
+          "event_id": "1163713",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Tornado",
+          "merged_prediction": "Flash Flood"
+        },
+        {
+          "event_id": "1164810",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Thunderstorm Wind",
+          "merged_prediction": "Tornado"
+        },
+        {
+          "event_id": "1165771",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Thunderstorm Wind",
+          "merged_prediction": "Wildfire"
+        },
+        {
+          "event_id": "1176728",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Thunderstorm Wind",
+          "merged_prediction": "Tornado"
+        },
+        {
+          "event_id": "1178031",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Hail",
+          "merged_prediction": "Flash Flood"
+        },
+        {
+          "event_id": "1178886",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Tornado",
+          "merged_prediction": "Flash Flood"
+        },
+        {
+          "event_id": "1179179",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Wildfire",
+          "merged_prediction": "Flash Flood"
+        },
+        {
+          "event_id": "1179441",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Tornado",
+          "merged_prediction": "Thunderstorm Wind"
+        },
+        {
+          "event_id": "1181194",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Flash Flood",
+          "merged_prediction": "Thunderstorm Wind"
+        },
+        {
+          "event_id": "1181216",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Flash Flood",
+          "merged_prediction": "Thunderstorm Wind"
+        },
+        {
+          "event_id": "1183807",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Thunderstorm Wind",
+          "merged_prediction": "Tornado"
+        },
+        {
+          "event_id": "1184651",
+          "reference_label": "Winter Storm",
+          "adapter_prediction": "Wildfire",
+          "merged_prediction": "Winter Storm"
+        },
+        {
+          "event_id": "1186169",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Tornado",
+          "merged_prediction": "Wildfire"
+        },
+        {
+          "event_id": "1186907",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Flash Flood",
+          "merged_prediction": "Wildfire"
+        },
+        {
+          "event_id": "1186941",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Thunderstorm Wind",
+          "merged_prediction": "Tornado"
+        },
+        {
+          "event_id": "1187126",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Thunderstorm Wind",
+          "merged_prediction": "Tornado"
+        },
+        {
+          "event_id": "1187182",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Thunderstorm Wind",
+          "merged_prediction": "Tornado"
+        },
+        {
+          "event_id": "1187188",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Thunderstorm Wind",
+          "merged_prediction": "Tornado"
+        },
+        {
+          "event_id": "1187963",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Flash Flood",
+          "merged_prediction": "Tornado"
+        },
+        {
+          "event_id": "1187981",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Tornado",
+          "merged_prediction": "Wildfire"
+        },
+        {
+          "event_id": "1188940",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Tornado",
+          "merged_prediction": "Wildfire"
+        },
+        {
+          "event_id": "1189346",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Thunderstorm Wind",
+          "merged_prediction": "Wildfire"
+        },
+        {
+          "event_id": "1192643",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Flash Flood",
+          "merged_prediction": "Wildfire"
+        },
+        {
+          "event_id": "1192963",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Thunderstorm Wind",
+          "merged_prediction": "Flash Flood"
+        },
+        {
+          "event_id": "1193316",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Thunderstorm Wind",
+          "merged_prediction": "Wildfire"
+        },
+        {
+          "event_id": "1193765",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Flash Flood",
+          "merged_prediction": "Tornado"
+        },
+        {
+          "event_id": "1194803",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Tornado",
+          "merged_prediction": "Thunderstorm Wind"
+        },
+        {
+          "event_id": "1194807",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Thunderstorm Wind",
+          "merged_prediction": "Tornado"
+        },
+        {
+          "event_id": "1195259",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Tornado",
+          "merged_prediction": "Wildfire"
+        },
+        {
+          "event_id": "1196809",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Flash Flood",
+          "merged_prediction": "Thunderstorm Wind"
+        },
+        {
+          "event_id": "1197554",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Thunderstorm Wind",
+          "merged_prediction": "Tornado"
+        },
+        {
+          "event_id": "1197830",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Thunderstorm Wind",
+          "merged_prediction": "Flash Flood"
+        },
+        {
+          "event_id": "1197932",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Thunderstorm Wind",
+          "merged_prediction": "Tornado"
+        },
+        {
+          "event_id": "1197942",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Tornado",
+          "merged_prediction": "Thunderstorm Wind"
+        },
+        {
+          "event_id": "1197947",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Thunderstorm Wind",
+          "merged_prediction": "Tornado"
+        },
+        {
+          "event_id": "1199624",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Tornado",
+          "merged_prediction": "Wildfire"
+        },
+        {
+          "event_id": "1200770",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Thunderstorm Wind",
+          "merged_prediction": "Wildfire"
+        },
+        {
+          "event_id": "1201253",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Flash Flood",
+          "merged_prediction": "Tornado"
+        },
+        {
+          "event_id": "1204352",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Thunderstorm Wind",
+          "merged_prediction": "Flash Flood"
+        },
+        {
+          "event_id": "1204996",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Thunderstorm Wind",
+          "merged_prediction": "Tornado"
+        },
+        {
+          "event_id": "1205834",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Thunderstorm Wind",
+          "merged_prediction": "Wildfire"
+        },
+        {
+          "event_id": "1206368",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Thunderstorm Wind",
+          "merged_prediction": "Wildfire"
+        },
+        {
+          "event_id": "1212493",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Thunderstorm Wind",
+          "merged_prediction": "Tornado"
+        },
+        {
+          "event_id": "1223764",
+          "reference_label": "Thunderstorm Wind",
+          "adapter_prediction": "Thunderstorm Wind",
+          "merged_prediction": "Tornado"
+        }
+      ],
+      "agreement": 0.9804001633319722,
+      "choice_logit_max_absolute_difference": 0.25,
+      "choice_logit_mean_absolute_difference": 0.04749387505104124
+    }
+  },
+  "evidence_hashes": {
+    "keyword": {
+      "predictions_sha256": "17120d7e9c77b40ac37b8d9343bb72f11d70621ed20354d71e570fe41f253f71",
+      "metrics_sha256": "cede8bd647a94c24ca1a13467e530191cae4bf3d46cbcb39dbd21017c991d437"
+    },
+    "base_raw": {
+      "predictions_sha256": "58898377eddea89a1a4c02af8f6e9b39fe4890530640885152ab80acac1dbf98",
+      "metrics_sha256": "e5fa2744d267c428e1d3a61b97e3e0a87e9f5757c5961e338fb708c52e8ce0b1"
+    },
+    "base_letter": {
+      "predictions_sha256": "3ca1332f22b301b223673a901af3170550b984f5a262fdf33dd17f6a7cf630d3",
+      "metrics_sha256": "90e836bfb7b7104778d83949b129992d84f6ac6e6a8582e1b1a9a066fde07dcd"
+    },
+    "adapter_raw": {
+      "predictions_sha256": "55942a6a4f6fd366f9d86fbb23df1138eaf2de077a1a96915d383794a948f80f",
+      "metrics_sha256": "79b0d40b7258af15d0c743310e3c69332ab86e96f73f59e1e0ed65f65e42349f"
+    },
+    "adapter_letter": {
+      "predictions_sha256": "96efe69900f0179cc7f98c78f1f020eb144ff1a6706676543c9c0cae16761051",
+      "metrics_sha256": "3e39ba64bfcaa7d655b804768d966b4c84d9fce59d5f35ac717d09ad1bf46161"
+    },
+    "merged_raw": {
+      "predictions_sha256": "55942a6a4f6fd366f9d86fbb23df1138eaf2de077a1a96915d383794a948f80f",
+      "metrics_sha256": "73f81df1e3a8f516ffce469a2527c8ada2ed38a0323ea2826d88c9e17d65b04e"
+    },
+    "merged_letter": {
+      "predictions_sha256": "875c6591b9b7764da8d2e914b2166246131816d43593339ad5755f04ad6eb193",
+      "metrics_sha256": "be58f117459e2725b8832b2207e012043a458cb7ad242b4d51fe64e3d31ba253"
+    }
+  },
+  "smoke_passed": 5,
+  "final_accessed": false,
+  "no_deployment_approval": true,
+  "limitations": "Development-only row-weighted metrics; same-label duplicates, imperfect reference labels, class imbalance and unknown pretraining overlap remain. Cross-format differences are not attributable solely to training."
+}

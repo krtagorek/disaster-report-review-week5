@@ -1,0 +1,9 @@
+{
+  "scripts/evaluate_lora.py": "5a76399522851441eeaf046c1a733ab13ab49e60efd68865be903fdec0bd99a6",
+  "scripts/lora_artifacts.py": "c26f60be0d48110745364417ed2fb20e41830ec4bc315ec3286317723cc992d3",
+  "scripts/baseline_common.py": "886a6a58473f4e618cbb0c1999aea7dd4d50174e3f91b8739592b506015dad26",
+  "scripts/letter_choice.py": "a508146737fd372586e0dba08d5688a09071f99ac307d3d54f2c3879563a2a15",
+  "requirements-model.lock": "95a776a6a619ac07038025bafcb0328b0d087c13d113e237f58fea8a71100cfb",
+  "data/training/lora-v1/plan.json": "ea9420d02c004f9043fa892729009556bb05634a8558a2f269828b9582be07df",
+  "artifact_fingerprint": "52b33c73a8e6ff0941713ea9c75f2a2b12acbe28267d147c24dc7b23d7a92233"
+}

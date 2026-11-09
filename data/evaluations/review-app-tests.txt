@@ -1,0 +1,17 @@
+test_invalid_completions_are_not_repaired (test_baselines.BaselineTests.test_invalid_completions_are_not_repaired) ... ok
+test_keyword_and_prompt_input (test_baselines.BaselineTests.test_keyword_and_prompt_input) ... ok
+test_metrics_include_invalid_false_negatives (test_baselines.BaselineTests.test_metrics_include_invalid_false_negatives) ... ok
+test_exact_mask_and_padding_invariance (test_completion_loss.CompletionLossTests.test_exact_mask_and_padding_invariance) ... ok
+test_numeric_updates_and_transitive_connections (test_prepare_splits.GroupingTests.test_numeric_updates_and_transitive_connections) ... ok
+test_prefix_search_matches_exhaustive (test_prepare_splits.GroupingTests.test_prefix_search_matches_exhaustive) ... ok
+test_http_workflow_and_local_request_guards (test_review_app.HttpTests.test_http_workflow_and_local_request_guards) ... ok
+test_decisions_reject_inconsistent_states (test_review_app.ReviewTests.test_decisions_reject_inconsistent_states) ... ok
+test_exports_round_trip_and_filter (test_review_app.ReviewTests.test_exports_round_trip_and_filter) ... ok
+test_pending_can_be_classified_after_reopen (test_review_app.ReviewTests.test_pending_can_be_classified_after_reopen) ... ok
+test_provenance_cannot_be_forged_or_moved (test_review_app.ReviewTests.test_provenance_cannot_be_forged_or_moved) ... ok
+test_save_reopen_correct_unresolved_and_history (test_review_app.ReviewTests.test_save_reopen_correct_unresolved_and_history) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.744s
+
+OK
