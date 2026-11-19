@@ -1,10 +1,41 @@
 # Disaster Report Review
 
-Week 5 custom project. A local classifier suggests one of six NOAA event
-categories for a historical narrative. An analyst reviews the original text,
-compares the suggestion with the keyword baseline, saves a decision, and
-exports the reviewed records. The workspace supports unresolved decisions and
-keeps linked source attribution with the review.
+Analysts preparing historical disaster datasets must read narrative reports, assign consistent event categories, and resolve ambiguous cases. Disaster Report Review helps with this work by using a local model to suggest one of six NOAA event categories. Analysts can inspect the original text, compare the suggestion with a keyword baseline, and confirm, correct, or leave the report unresolved. Saved reviews preserve linked source attribution and can be exported for further analysis.
+
+
+## Demo
+
+[Watch the Loom walkthrough](https://www.loom.com/share/10f58f9740074e0dbec9a0b0a3f76ecc)
+
+### Review desk and method comparison
+
+The original narrative sits beside the model suggestion and keyword baseline, with saved-state counts and a disagreement filter.
+
+![Review desk and method comparison](docs/assets/review-desk-comparison.png)
+
+### Human review and export
+
+Analysts can confirm, correct, or leave a report unresolved, preserve source details, and export saved records and session outcomes.
+
+![Human review and session outcomes](docs/assets/human-review-export.png)
+
+### Model evidence
+
+The evidence panel presents recorded development comparisons and the training loss curve.
+
+![Model evidence and accuracy comparison](docs/assets/model-evidence.png)
+
+## My contribution
+
+I developed this custom project during the GenAI Academy cohort, where fine-tuning was a requirement. I chose historical disaster-report classification and built the analyst review workflow around it.
+
+I built an end-to-end review workflow, prepared data splits that kept related and duplicate reports together, fine-tuned and merged a local model, and compared it with untuned-model and keyword baselines.
+
+Fine-tuning was explored to improve six-category classification of disaster narratives. On the development set, the served model reached **98.69% accuracy**, compared with **71.74%** for the untuned model and **89.02%** for keywords.
+
+## Limitations
+
+The project covers six categories from one historical NOAA snapshot. Some narratives can support more than one plausible category. Classes are imbalanced, and performance on other sources remains unvalidated. Training covered 21% of one epoch, the separate letter protocol performed substantially worse, and the reserved final set remains unevaluated. Human review is central to the workflow.
 
 This source snapshot comes from `working-review-app-v2` at `650240e`.
 See [setup and reproduction](docs/SUBMISSION_SETUP.md),
